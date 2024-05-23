@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/public/Fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("/public/Fonts/helveticaltstd-comp.otf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("/public/Fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Billy Ohio";
+  src: url("/public/fonts/Billy Ohio.ttf");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scroll-behavior: smooth;
+}
